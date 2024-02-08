@@ -111,6 +111,12 @@ body {
 .card .card__body .card__body-title {
   font-size: 22px;
   font-weight: var(--font-weight-bold);
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.card .card__body .card__body-title:hover {
+  color: var(--cyan);
 }
 
 .card .card__body .card__body-description-text {
@@ -145,6 +151,7 @@ body {
 .card .card__hr {
   width: 100%;
   margin: 20px 0;
+  border: 1px solid;
   border-color: var(--very-dark-blue-line);
 }
 
